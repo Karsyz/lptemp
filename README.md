@@ -1,6 +1,6 @@
 # React Tailwind Template
 
-This is a vite/react/tailwind base project all ready for you to hit the ground running.
+This repo is a template for building out landing pages.
 
 # Install
  

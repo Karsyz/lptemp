@@ -1,19 +1,20 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}"],
+    "./src/**/*.{js,ts,jsx,tsx}"
+  ],
   theme: {
     extend: {
       colors: {
         'std': {
-            DEFAULT: '#e3d3ba',
-            dark: '#d4bc96',
-            comp: '#4267A2',
-            text: '#e5ebf5',
-            red: '#ab0a0a',
-            grey: '#F7F7F7',
-            turq: '#A6D1CB',
+          DEFAULT: '#e3d3ba',
+          dark: '#d4bc96',
+          comp: '#4267A2',
+          text: '#e5ebf5',
+          red: '#ab0a0a',
+          grey: '#F7F7F7',
+          turq: '#A6D1CB',
         },
       },
       minHeight: {
@@ -30,9 +31,7 @@ module.exports = {
           '0%': { opacity: 0 },
           '100%': { opacity: 1 }
         },
-
       },
-
     },
   },
   plugins: [
@@ -41,7 +40,4 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
   ],
-}
-
-
-
+};
